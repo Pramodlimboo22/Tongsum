@@ -518,8 +518,10 @@ a {
 /* Events Page */
 
 .events-section {
-    padding: 40px 8%;
+    padding: 60px 8%;
     text-align: center;
+    background: var(--cream);
+    min-height: 100vh;
 }
 
 .events-section h2 {
