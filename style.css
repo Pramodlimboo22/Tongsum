@@ -513,3 +513,58 @@ a {
         flex-direction: column;
     }
 }
+
+
+/* Events Page */
+
+.events-section {
+    padding: 40px 8%;
+    text-align: center;
+}
+
+.events-section h2 {
+    color: #386641;
+    margin-bottom: 15px;
+}
+
+.events-section > p {
+    margin-bottom: 30px;
+}
+
+.event-card {
+    background: #ffffff;
+    padding: 20px;
+    margin: 25px auto;
+    max-width: 750px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+    text-align: left;
+}
+
+.event-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.event-card h3 {
+    color: #386641;
+    margin-bottom: 12px;
+}
+
+.event-card p {
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    .events-section {
+        padding: 25px 5%;
+    }
+
+    .event-card img {
+        height: 200px;
+    }
+}
