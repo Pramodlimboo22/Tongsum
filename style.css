@@ -546,7 +546,7 @@ a {
 .event-card img {
     width: 100%;
     height: auto;
-    max-height: 450px;
+    max-height: none;
     object-fit: contain;
     border-radius: 10px;
     margin-bottom: 15px;
