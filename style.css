@@ -537,7 +537,7 @@ a {
     background: #ffffff;
     padding: 20px;
     margin: 25px auto;
-    max-width: 750px;
+    max-width: 1000px;
     border-radius: 12px;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
     text-align: left;
@@ -545,7 +545,7 @@ a {
 
 .event-card img {
     width: 100%;
-    height: 280px;
+    height: 350px;
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 15px;
