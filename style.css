@@ -535,18 +535,19 @@ a {
 
 .event-card {
     background: #ffffff;
-    padding: 20px;
-    margin: 25px auto;
+    padding: 25px;
+    margin: 30px auto 45px;
     max-width: 1000px;
     border-radius: 12px;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
     text-align: left;
+    display: flow-root;
 }
 
 .event-card img {
     width: 100%;
     height: auto;
-    max-height: none;
+    max-height: 450px;
     object-fit: contain;
     border-radius: 10px;
     margin-bottom: 15px;
@@ -570,4 +571,29 @@ a {
     .event-card img {
         height: 200px;
     }
+}
+
+/* Registration Button */
+
+.register-btn {
+    display: inline-block;
+    background-color: #386641;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.register-btn:hover {
+    background-color: #25482d;
+    transform: translateY(-2px);
+}
+
+.register-container {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
