@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Discover Tongsum, the Limboo harvesting festival celebrating harvest, gratitude, traditions and cultural heritage.">
+    <meta name="description" content="Discover Tongsum, the harvesting festival celebrating harvest, gratitude, traditions and cultural heritage.">
 
-    <title>TONGSUM | Limboo Harvesting Festival</title>
+    <title>TONGSUM | Harvesting Festival</title>
 
     <link rel="stylesheet" href="style.css">
 
@@ -21,7 +21,8 @@
     <!-- NAVIGATION -->
     <header class="header">
         <nav class="navbar container">
-            <a href="#home" class="logo">TONGSUM<span>.</span></a>
+
+            <a href="#HOME" class="logo">TONGSUM<span>.</span></a>
 
             <button class="menu-toggle" id="menuToggle"
                     aria-label="Toggle navigation" aria-expanded="false">
@@ -29,33 +30,66 @@
             </button>
 
             <ul class="nav-links" id="navLinks">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#significance">Significance</a></li>
-                <li><a href="#culture">Culture</a></li>
-                <li><a href="#gallery">Gallery</a></li>
+
+                <li><a href="#HOME">HOME</a></li>
+
+                <!-- ABOUT BUTTON WITH DROPDOWN -->
+                <li class="dropdown">
+                    <div class="about-nav">
+
+                        <a href="#about">ABOUT</a>
+
+                        <details>
+                            <summary>▼</summary>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="dtdc-members.html">DTDC MEMBERS 2026</a>
+                                </li>
+
+                                <li>
+                                    <a href="village-tourism.html">2ND ANNUAL TONGSUM VILLAGE TOURISM FESTIVAL</a>
+                                </li>
+                            </ul>
+
+                        </details>
+                    </div>
+                </li>
+
+                <li><a href="#significance">SIGNIFICANCE</a></li>
+
+                <li><a href="#culture">CULTURE</a></li>
+
+                <li><a href="events.html">EVENTS</a></li>
+
+                <li><a href="#gallery">GALLERY</a></li>
+
             </ul>
+
         </nav>
     </header>
 
 
     <!-- HERO SECTION -->
-    <section class="hero" id="home">
+    <section class="hero" id="HOME">
+
         <div class="hero-overlay"></div>
 
         <div class="hero-content container">
-            <p class="eyebrow">CELEBRATING LIMBOO HERITAGE</p>
+
+            <p class="eyebrow">CELEBRATING CULTURE & HERITAGE</p>
 
             <h1>TONGSUM</h1>
 
-            <h2>The Limboo Harvesting Festival</h2>
+            <h2>Harvesting Festival</h2>
 
             <p>
                 A celebration of harvest, gratitude, nature
-                and the rich cultural heritage of the Limboo community.
+                and the rich cultural heritage of the community.
             </p>
 
             <a href="#about" class="btn">Explore Tongsum ↓</a>
+
         </div>
     </section>
 
@@ -64,9 +98,13 @@
     <section class="section container" id="about">
 
         <div class="section-heading">
+
             <p class="eyebrow">DISCOVER THE FESTIVAL</p>
+
             <h2>About Tongsum</h2>
+
             <span class="heading-line"></span>
+
         </div>
 
         <div class="about-grid">
@@ -77,6 +115,7 @@
             </div>
 
             <div class="about-text">
+
                 <h3>A Celebration of Harvest and Gratitude</h3>
 
                 <p>
@@ -98,6 +137,7 @@
                     their land, their agricultural practices and
                     their cultural identity.
                 </p>
+
             </div>
 
         </div>
@@ -110,16 +150,22 @@
         <div class="container">
 
             <div class="section-heading light">
+
                 <p class="eyebrow">MEANING AND IMPORTANCE</p>
+
                 <h2>Significance of Tongsum</h2>
+
                 <span class="heading-line"></span>
+
             </div>
 
             <div class="cards">
 
                 <div class="info-card">
                     <div class="card-icon">🌾</div>
+
                     <h3>Harvest</h3>
+
                     <p>
                         Celebrating agricultural produce and the
                         importance of harvesting in community life.
@@ -128,7 +174,9 @@
 
                 <div class="info-card">
                     <div class="card-icon">🙏</div>
+
                     <h3>Gratitude</h3>
+
                     <p>
                         Expressing appreciation for nature,
                         agricultural prosperity and life's blessings.
@@ -137,7 +185,9 @@
 
                 <div class="info-card">
                     <div class="card-icon">🤝</div>
+
                     <h3>Community</h3>
+
                     <p>
                         Bringing people together and strengthening
                         relationships through shared traditions.
@@ -146,7 +196,9 @@
 
                 <div class="info-card">
                     <div class="card-icon">🏔️</div>
+
                     <h3>Heritage</h3>
+
                     <p>
                         Preserving the cultural identity and
                         traditional knowledge of the Limboo people.
@@ -162,9 +214,13 @@
     <section class="section container" id="culture">
 
         <div class="section-heading">
+
             <p class="eyebrow">TRADITIONS AND IDENTITY</p>
-            <h2>Limboo Culture and Heritage</h2>
+
+            <h2>Culture and Heritage</h2>
+
             <span class="heading-line"></span>
+
         </div>
 
         <div class="culture-grid">
@@ -175,6 +231,7 @@
             </div>
 
             <div class="culture-content">
+
                 <h3>A Heritage Worth Preserving</h3>
 
                 <p>
@@ -195,6 +252,7 @@
                     relationship between agricultural life and
                     Limboo cultural heritage.
                 </p>
+
             </div>
 
         </div>
@@ -207,37 +265,56 @@
         <div class="container">
 
             <div class="section-heading light">
+
                 <p class="eyebrow">CULTURAL EXPRESSIONS</p>
+
                 <h2>Celebrations and Traditions</h2>
+
                 <span class="heading-line"></span>
+
             </div>
 
             <div class="tradition-grid">
 
                 <div class="tradition-item">
+
                     <img src="images/celebration.jpg"
                          alt="Traditional community celebration">
+
                     <div class="tradition-caption">
+
                         <h3>Community Gathering</h3>
+
                         <p>Sharing traditions and celebrating together.</p>
+
                     </div>
                 </div>
 
                 <div class="tradition-item">
+
                     <img src="images/culture.jpg"
                          alt="Traditional cultural heritage">
+
                     <div class="tradition-caption">
+
                         <h3>Cultural Heritage</h3>
+
                         <p>Appreciating traditional customs and identity.</p>
+
                     </div>
                 </div>
 
                 <div class="tradition-item">
+
                     <img src="images/harvest.jpg"
                          alt="Agricultural harvest">
+
                     <div class="tradition-caption">
+
                         <h3>Harvest Celebration</h3>
+
                         <p>Recognising the importance of agriculture.</p>
+
                     </div>
                 </div>
 
@@ -248,68 +325,99 @@
 
     <!-- QUOTE SECTION -->
     <section class="quote-section">
+
         <div class="container">
+
             <p class="quote-mark">“</p>
+
             <h2>
                 Celebrating the harvest, preserving our roots
                 and honouring our heritage.
             </h2>
-            <p class="quote-subtitle">TONGSUM — A Celebration of Culture</p>
+
+            <p class="quote-subtitle">
+                TONGSUM — A Celebration of Culture
+            </p>
+
         </div>
     </section>
 
 
-    <!-- GALLERY -->
+    <!-- GALLERY SECTION -->
     <section class="section container" id="gallery">
 
         <div class="section-heading">
+
             <p class="eyebrow">VISUAL STORIES</p>
+
             <h2>Festival Gallery</h2>
+
             <span class="heading-line"></span>
+
             <p class="gallery-intro">
                 A glimpse into the agricultural traditions and
                 cultural heritage of the Limboo community.
             </p>
+
         </div>
 
         <div class="gallery-grid">
+
             <img src="images/harvest.jpg" alt="Harvest traditions">
+
             <img src="images/culture.jpg" alt="Limboo heritage">
+
             <img src="images/celebration.jpg" alt="Cultural celebration">
+
             <img src="images/hero.jpg" alt="Tongsum festival landscape">
+
         </div>
     </section>
 
 
     <!-- FOOTER -->
     <footer class="footer" id="contact">
+
         <div class="container footer-content">
 
             <div>
-                <a href="#home" class="footer-logo">TONGSUM<span>.</span></a>
+
+                <a href="#HOME" class="footer-logo">TONGSUM<span>.</span></a>
+
                 <p>
                     Celebrating the harvest and preserving
                     Limboo cultural heritage.
                 </p>
+
             </div>
 
             <div class="footer-links">
+
                 <h3>Quick Links</h3>
-                <a href="#home">Home</a>
+
+                <a href="#HOME">Home</a>
+
                 <a href="#about">About</a>
+
                 <a href="#culture">Culture</a>
+
                 <a href="#gallery">Gallery</a>
+
             </div>
 
         </div>
 
         <div class="copyright">
+
             <p>
                 © <span id="year"></span> TONGSUM.
                 Celebrating Limboo Heritage.
             </p>
+
         </div>
+
     </footer>
+
 
     <script src="script.js"></script>
 
